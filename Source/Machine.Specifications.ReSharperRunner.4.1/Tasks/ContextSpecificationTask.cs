@@ -4,7 +4,7 @@ using System.Xml;
 namespace Machine.Specifications.ReSharperRunner.Tasks
 {
   [Serializable]
-  internal class ContextSpecificationTask : Task, IEquatable<ContextSpecificationTask>
+  internal partial class ContextSpecificationTask : Task, IEquatable<ContextSpecificationTask>
   {
     readonly string _specificationFieldName;
 

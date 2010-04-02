@@ -4,7 +4,7 @@ using System.Xml;
 namespace Machine.Specifications.ReSharperRunner.Tasks
 {
   [Serializable]
-  internal class BehaviorTask : Task, IEquatable<BehaviorTask>
+  internal partial class BehaviorTask : Task, IEquatable<BehaviorTask>
   {
     readonly string _behaviorFieldName;
 
